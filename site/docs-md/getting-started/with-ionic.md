@@ -27,7 +27,7 @@ ionic integrations enable capacitor
 
 ### Initialize Capacitor with your app information
 
-*Note: `npx` is a new utility available in npm 5 or above that executes local binaries/scripts to avoid global installs.*
+> **Note**: `npx` is a new utility available in npm 5 or above that executes local binaries/scripts to avoid global installs.
 
 ```bash
 npx cap init [appName] [appId]
@@ -35,11 +35,11 @@ npx cap init [appName] [appId]
 
 where `appName` is the name of your app, and `appId` is the domain identifier of your app (ex: `com.example.app`).
 
-*Note: Use the native IDEs to change these properties after initial configuration.*
+> **Note**: Use the native IDEs to change these properties after initial configuration.
 
 ### Build your Ionic App
 
-You must build your Ionic project at least once before adding any native platforms.
+You **must** build your Ionic project at least once before adding any native platforms.
 
 ```bash
 ionic build

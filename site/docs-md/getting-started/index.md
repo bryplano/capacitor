@@ -38,13 +38,15 @@ npm install --save @capacitor/core @capacitor/cli
 
 Then, initialize Capacitor with your app information.
 
-*Note: `npx` is a new utility available in npm 5 or above that executes local binaries/scripts to avoid global installs.*
+> **Note**: `npx` is a new utility available in npm 5 or above that executes local binaries/scripts to avoid global installs.
 
 ```bash
 npx cap init
 ```
 
 This command will prompt you to enter the name of your app and the app id (the package name for Android and the bundle identifier for iOS). Use the `--web-dir` flag to set the web assets folder (the default is `www`).
+
+> **Note**: If you have not build your web application using a command like `ionic build`, `ng build`, etc., you need to do so *before* adding native platforms.
 
 Next, install any of the desired native platforms:
 
